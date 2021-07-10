@@ -7,7 +7,7 @@ import redis.clients.jedis.Jedis;
 /**
  * redis分布式锁
  * @author mac1094
- *
+ *主要是所得枷锁和释放锁
  */
 public class Redis_Lock {
 	// 创建分布式锁
